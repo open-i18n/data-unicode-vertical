@@ -1,5 +1,5 @@
-# VerticalOrientation-10.txt
-# Date: 2013-05-09, 08:05:00 GMT [EM, KI, LI]
+# VerticalOrientation-11.txt
+# Date: 2013-08-27, 10:00:00 GMT [EM, KI, LI]
 #
 # Vertical_Orientation (vo) Property
 #
@@ -8,8 +8,8 @@
 #
 # Copyright (c) 1991-2013 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
-# For documentation, see Draft UTR #50: Unicode Vertical Text Layout,
-# Revision 10, at http://www.unicode.org/reports/tr50/tr50-10.html
+# For documentation, see UTR #50: Unicode Vertical Text Layout,
+# Revision 11, at http://www.unicode.org/reports/tr50/tr50-11.html
 #
 # The format of the file is two fields separated by a semicolon.
 # Field 0: Unicode code point value or range of code point values in
@@ -17,11 +17,8 @@
 # Field 1: Vertical_Orientation property value, one of the following:
 #   U - Upright, the same orientation as in the code charts
 #   R - Rotated 90 degrees clockwise compared to the code charts
-#   Tx - Transformed typographically
 #   Tu - Transformed typographically, with fallback to Upright
 #   Tr - Transformed typographically, with fallback to Rotated
-#
-# There are currently no characters with Vertical_Orientation=Tx.
 #
 # @missing: 0000..10FFFF; R
 
@@ -51,7 +48,8 @@
 007C ; R
 007D ; R
 007E ; R
-007F..009F ; R
+007F ; R
+0080..009F ; R
 00A0 ; R
 00A1 ; R
 00A2 ; R
@@ -148,7 +146,7 @@
 1740..175F ; R
 1760..177F ; R
 1780..17FF ; R
-1800..18AF ; U
+1800..18AF ; R
 18B0..18FF ; U
 1900..194F ; R
 1950..197F ; R
@@ -585,8 +583,8 @@
 309A ; U
 309B ; Tu
 309C ; Tu
-309D ; Tu
-309E ; Tu
+309D ; U
+309E ; U
 309F ; U
 30A0 ; Tr
 30A1 ; Tu
@@ -709,7 +707,7 @@ A700..A71F ; R
 A720..A7FF ; R
 A800..A82F ; R
 A830..A83F ; R
-A840..A87F ; U
+A840..A87F ; R
 A880..A8DF ; R
 A8E0..A8FF ; R
 A900..A92F ; R
@@ -742,12 +740,7 @@ FE16 ; U
 FE17 ; U
 FE18 ; U
 FE19 ; U
-FE1A ; U
-FE1B ; U
-FE1C ; U
-FE1D ; U
-FE1E ; U
-FE1F ; U
+FE1A..FE1F ; U
 FE20..FE2F ; R
 FE30 ; U
 FE31 ; U
@@ -842,7 +835,7 @@ FF1B ; Tr
 FF1C ; R
 FF1D ; R
 FF1E ; R
-FF1F ; U
+FF1F ; Tu
 FF20 ; U
 FF21..FF3A ; U
 FF3B ; Tr
@@ -892,15 +885,7 @@ FFEC ; R
 FFED ; R
 FFEE ; R
 FFEF ; R
-FFF0 ; U
-FFF1 ; U
-FFF2 ; U
-FFF3 ; U
-FFF4 ; U
-FFF5 ; U
-FFF6 ; U
-FFF7 ; U
-FFF8 ; U
+FFF0..FFF8 ; U
 FFF9..FFFB ; R
 FFFC ; U
 FFFD ; U
@@ -974,6 +959,7 @@ FFFF ; R
 30000..3FFFD ; U
 E0000..E007F ; R
 E0100..E01EF ; R
-F0000..10FFFF ; U
+F0000..FFFFF ; U
+100000..10FFFF ; U
 
 # EOF
