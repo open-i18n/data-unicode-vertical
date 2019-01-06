@@ -1,8 +1,8 @@
-# VerticalOrientation-12.txt
-# Date: 2014-07-07, 21:00:00 GMT [EM, KI, LI]
+# VerticalOrientation-13.txt
+# Date: 2014-09-03, 17:30:00 GMT [EM, KI, LI]
 #
-# Note: This data file is a draft which accompanies Revision 12 of
-# the Proposed Update UTR #50.
+# Note: This data file contains final, approved data accompanying Revision 13 of
+# UTR #50.
 #
 # Vertical_Orientation (vo) Property
 #
@@ -12,7 +12,7 @@
 # Copyright (c) 1991-2014 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see UTR #50: Unicode Vertical Text Layout,
-# Revision 12, at http://www.unicode.org/reports/tr50/tr50-12.html
+# Revision 13, at http://www.unicode.org/reports/tr50/tr50-13.html
 #
 # The character repertoire of this revision is the repertoire of
 # Unicode Version 7.0.
@@ -692,7 +692,7 @@
 30FE ; U
 30FF ; U
 3100..3126 ; U
-3127 ; Tr
+3127 ; Tu
 3128..312F ; U
 3130..318F ; U
 3190..319F ; U
