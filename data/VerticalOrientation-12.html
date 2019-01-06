@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html
+<!DOCTYPE html
   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:ucd="http://www.unicode.org/ns/2003/ucd/1.0">
    <head>
@@ -6,15 +6,17 @@
       <title>Vertical_Orientation Property</title>
    </head>
    <body>
-      <p><b>VerticalOrientation-11.html</b></p>
-      <p><b>Date:</b> 2013-08-27, 10:00:00 GMT</p>
-      <p>This file provides a slightly more readable version of <a href="VerticalOrientation-11.txt">VerticalOrientation-11.txt</a>
-         and corresponds to <a href="http://www.unicode.org/reports/tr50/tr50-11.html">Revision 11</a> of UTR #50: Unicode Vertical Text Layout.</p>
+      <p><b>VerticalOrientation-12.html</b></p>
+      <p><b>Date:</b> 2014-07-07, 21:00:00 GMT</p>
+      <p><b>Note:</b> This data file is a draft which accompanies Revision 12 of the Proposed Update UTR #50.</p>
+      <p>This file provides a slightly more readable version of <a href="http://www.unicode.org/Public/vertical/revision-12/VerticalOrientation-12.txt">VerticalOrientation-12.txt</a>
+         and corresponds to <a href="http://www.unicode.org/reports/tr50/tr50-12.html">Revision 12</a> of UTR #50: Unicode Vertical Text Layout.
+         The character repertoire of this revision is the repertoire of Unicode Version 7.0.</p>
       <p>Each line consists of the following four fields:</p>
          <ul>
          <li>Vertical_Orientation (vo) property value, one of the following:
             <ul>
-            <li>U &ndash; Upright, the same orientation as in the character <a href="http://www.unicode.org/charts/">code charts</a></li>
+            <li>U &ndash; Upright, the same orientation as in the character <a href="http://www.unicode.org/Public/7.0.0/charts/">code charts</a></li>
             <li>R &ndash; Rotated 90 degrees clockwise compared to the code charts</li>
             <li>Tu &ndash; Transformed typographically, with fallback to Upright</li>
             <li>Tr &ndash; Transformed typographically, with fallback to Rotated</li>
@@ -25,6 +27,7 @@
          </ul>
       <p>The characters whose code points are not listed have Vertical_Orientation=R by default.</p>
       <table>
+         <tbody>
          <tr>
             <td>R</td>
             <td>0000 .. 001F</td>
@@ -525,9 +528,21 @@
          </tr>
          <tr>
             <td>R</td>
-            <td>058B .. 058F</td>
-            <td>&#x058B; .. &#x058F;</td>
-            <td>&lt;reserved-058B&gt; .. ARMENIAN DRAM SIGN</td>
+            <td>058B .. 058C</td>
+            <td>&#x058B; .. &#x058C;</td>
+            <td>&lt;reserved-058B&gt; .. &lt;reserved-058C&gt;</td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>058D .. 058E</td>
+            <td>&#x058D; .. &#x058E;</td>
+            <td>RIGHT-FACING ARMENIAN ETERNITY SIGN .. LEFT-FACING ARMENIAN ETERNITY SIGN</td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>058F</td>
+            <td>&#x058F;</td>
+            <td>ARMENIAN DRAM SIGN</td>
          </tr>
          <tr>
             <td>R</td>
@@ -816,6 +831,12 @@
             <td>1A20 .. 1AAF</td>
             <td>&nbsp;</td>
             <td><i>Tai Tham</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>1AB0 .. 1AFF</td>
+            <td>&nbsp;</td>
+            <td><i>Combining Diacritical Marks Extended</i></td>
          </tr>
          <tr>
             <td>R</td>
@@ -1364,28 +1385,10 @@
             <td>&lt;reserved-2065&gt;</td>
          </tr>
          <tr>
-            <td>U</td>
-            <td>2066</td>
-            <td>&#x2066;</td>
-            <td>LEFT-TO-RIGHT ISOLATE</td>
-         </tr>
-         <tr>
-            <td>U</td>
-            <td>2067</td>
-            <td>&#x2067;</td>
-            <td>RIGHT-TO-LEFT ISOLATE</td>
-         </tr>
-         <tr>
-            <td>U</td>
-            <td>2068</td>
-            <td>&#x2068;</td>
-            <td>FIRST STRONG ISOLATE</td>
-         </tr>
-         <tr>
-            <td>U</td>
-            <td>2069</td>
-            <td>&#x2069;</td>
-            <td>POP DIRECTIONAL ISOLATE</td>
+            <td>R</td>
+            <td>2066 .. 2069</td>
+            <td>&#x2066; .. &#x2069;</td>
+            <td>LEFT-TO-RIGHT ISOLATE .. POP DIRECTIONAL ISOLATE</td>
          </tr>
          <tr>
             <td>R</td>
@@ -2177,7 +2180,7 @@
             <td>U</td>
             <td>2700 .. 2767</td>
             <td>&#x2700; .. &#x2767;</td>
-            <td>&lt;reserved-2700&gt; .. ROTATED FLORAL HEART BULLET</td>
+            <td>BLACK SAFETY SCISSORS .. ROTATED FLORAL HEART BULLET</td>
          </tr>
          <tr>
             <td>R</td>
@@ -2301,15 +2304,27 @@
          </tr>
          <tr>
             <td>R</td>
-            <td>2B30 .. 2B4C</td>
-            <td>&#x2B30; .. &#x2B4C;</td>
-            <td>LEFT ARROW WITH SMALL CIRCLE .. RIGHTWARDS ARROW ABOVE REVERSE TILDE OPERATOR</td>
+            <td>2B30 .. 2B4F</td>
+            <td>&#x2B30; .. &#x2B4F;</td>
+            <td>LEFT ARROW WITH SMALL CIRCLE .. SHORT BACKSLANTED SOUTH ARROW</td>
          </tr>
          <tr>
             <td>U</td>
-            <td>2B4D .. 2BFF</td>
-            <td>&#x2B4D; .. &#x2BFF;</td>
-            <td>&lt;reserved-2B4D&gt; .. &lt;reserved-2BFF&gt;</td>
+            <td>2B50 .. 2B59</td>
+            <td>&#x2B50; .. &#x2B59;</td>
+            <td>WHITE MEDIUM STAR .. HEAVY CIRCLED SALTIRE</td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>2B5A .. 2BB7</td>
+            <td>&#x2B5A; .. &#x2BB7;</td>
+            <td>SLANTED NORTH ARROW WITH HOOKED HEAD .. RIBBON ARROW RIGHT DOWN</td>
+         </tr>
+         <tr>
+            <td>U</td>
+            <td>2BB8 .. 2BFF</td>
+            <td>&#x2BB8; .. &#x2BFF;</td>
+            <td>UPWARDS WHITE ARROW FROM BAR WITH HORIZONTAL BAR .. &lt;reserved-2BFF&gt;</td>
          </tr>
          <tr>
             <td>R</td>
@@ -2421,9 +2436,15 @@
          </tr>
          <tr>
             <td>R</td>
-            <td>2E3C .. 2E7F</td>
-            <td>&#x2E3C; .. &#x2E7F;</td>
-            <td>&lt;reserved-2E3C&gt; .. &lt;reserved-2E7F&gt;</td>
+            <td>2E3C .. 2E42</td>
+            <td>&#x2E3C; .. &#x2E42;</td>
+            <td>STENOGRAPHIC FULL STOP .. DOUBLE LOW-REVERSED-9 QUOTATION MARK</td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>2E43 .. 2E7F</td>
+            <td>&#x2E43; .. &#x2E7F;</td>
+            <td>&lt;reserved-2E43&gt; .. &lt;reserved-2E7F&gt;</td>
          </tr>
          <tr>
             <td>U</td>
@@ -3987,9 +4008,21 @@
          </tr>
          <tr>
             <td>U</td>
-            <td>3100 .. 312F</td>
-            <td>&nbsp;</td>
-            <td><i>Bopomofo</i></td>
+            <td>3100 .. 3126</td>
+            <td>&#x3100; .. &#x3126;</td>
+            <td>&lt;reserved-0530&gt; .. BOPOMOFO LETTER ER</td>
+         </tr>
+         <tr>
+            <td>Tr</td>
+            <td>3127</td>
+            <td>&#x3127;</td>
+            <td>BOPOMOFO LETTER I</td>
+         </tr>
+         <tr>
+            <td>U</td>
+            <td>3128 .. 312F</td>
+            <td>&#x3128; .. &#x312F;</td>
+            <td>BOPOMOFO LETTER U .. &lt;reserved-312F&gt;</td>
          </tr>
          <tr>
             <td>U</td>
@@ -4180,8 +4213,8 @@
          <tr>
             <td>R</td>
             <td>A9E0 .. A9FF</td>
-            <td>&#xA9E0; .. &#xA9FF;</td>
-            <td>&lt;reserved-A9E0&gt; .. &lt;reserved-A9FF&gt;</td>
+            <td>&nbsp;</td>
+            <td><i>Myanmar Extended-B</i></td>
          </tr>
          <tr>
             <td>R</td>
@@ -4215,9 +4248,15 @@
          </tr>
          <tr>
             <td>R</td>
-            <td>AB30 .. ABBF</td>
-            <td>&#xAB30; .. &#xABBF;</td>
-            <td>&lt;reserved-AB30&gt; .. &lt;reserved-ABBF&gt;</td>
+            <td>AB30 .. AB6F</td>
+            <td>&nbsp;</td>
+            <td><i>Latin Extended-E</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>AB70 .. ABBF</td>
+            <td>&#xAB70; .. &#xABBF;</td>
+            <td>&lt;reserved-AB70&gt; .. &lt;reserved-ABBF&gt;</td>
          </tr>
          <tr>
             <td>R</td>
@@ -5289,6 +5328,12 @@
          </tr>
          <tr>
             <td>R</td>
+            <td>102E0 .. 102FF</td>
+            <td>&nbsp;</td>
+            <td><i>Coptic Epact Numbers</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
             <td>10300 .. 1032F</td>
             <td>&nbsp;</td>
             <td><i>Old Italic</i></td>
@@ -5298,6 +5343,12 @@
             <td>10330 .. 1034F</td>
             <td>&nbsp;</td>
             <td><i>Gothic</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>10350 .. 1037F</td>
+            <td>&nbsp;</td>
+            <td><i>Old Permic</i></td>
          </tr>
          <tr>
             <td>R</td>
@@ -5331,6 +5382,24 @@
          </tr>
          <tr>
             <td>R</td>
+            <td>10500 .. 1052F</td>
+            <td>&nbsp;</td>
+            <td><i>Elbasan</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>10530 .. 1056F</td>
+            <td>&nbsp;</td>
+            <td><i>Caucasian Albanian</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>10600 .. 1077F</td>
+            <td>&nbsp;</td>
+            <td><i>Linear A</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
             <td>10800 .. 1083F</td>
             <td>&nbsp;</td>
             <td><i>Cypriot Syllabary</i></td>
@@ -5340,6 +5409,24 @@
             <td>10840 .. 1085F</td>
             <td>&nbsp;</td>
             <td><i>Imperial Aramaic</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>10860 .. 1087F</td>
+            <td>&nbsp;</td>
+            <td><i>Palmyrene</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>10880 .. 108AF</td>
+            <td>&nbsp;</td>
+            <td><i>Nabataean</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>10A80 .. 10A9F</td>
+            <td>&nbsp;</td>
+            <td><i>Old North Arabian</i></td>
          </tr>
          <tr>
             <td>R</td>
@@ -5379,6 +5466,12 @@
          </tr>
          <tr>
             <td>R</td>
+            <td>10AC0 .. 10AFF</td>
+            <td>&nbsp;</td>
+            <td><i>Manichaean</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
             <td>10B00 .. 10B3F</td>
             <td>&nbsp;</td>
             <td><i>Avestan</i></td>
@@ -5394,6 +5487,12 @@
             <td>10B60 .. 10B7F</td>
             <td>&nbsp;</td>
             <td><i>Inscriptional Pahlavi</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>10B80 .. 10BAF</td>
+            <td>&nbsp;</td>
+            <td><i>Psalter Pahlavi</i></td>
          </tr>
          <tr>
             <td>R</td>
@@ -5433,15 +5532,75 @@
          </tr>
          <tr>
             <td>R</td>
+            <td>11150 .. 1117F</td>
+            <td>&nbsp;</td>
+            <td><i>Mahajani</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
             <td>11180 .. 111DF</td>
             <td>&nbsp;</td>
             <td><i>Sharada</i></td>
          </tr>
          <tr>
             <td>R</td>
+            <td>111E0 .. 111FF</td>
+            <td>&nbsp;</td>
+            <td><i>Sinhala Archaic Numbers</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>11200 .. 1124F</td>
+            <td>&nbsp;</td>
+            <td><i>Khojki</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>112B0 .. 112FF</td>
+            <td>&nbsp;</td>
+            <td><i>Khudawadi</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>11300 .. 1137F</td>
+            <td>&nbsp;</td>
+            <td><i>Grantha</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>11480 .. 114DF</td>
+            <td>&nbsp;</td>
+            <td><i>Tirhuta</i></td>
+         </tr>
+         <tr>
+            <td>U</td>
+            <td>11580 .. 115FF</td>
+            <td>&nbsp;</td>
+            <td><i>Siddham</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>11600 .. 1165F</td>
+            <td>&nbsp;</td>
+            <td><i>Modi</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
             <td>11680 .. 116CF</td>
             <td>&nbsp;</td>
             <td><i>Takri</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>118A0 .. 118FF</td>
+            <td>&nbsp;</td>
+            <td><i>Warang Citi</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>11AC0 .. 11AFF</td>
+            <td>&nbsp;</td>
+            <td><i>Pau Cin Hau</i></td>
          </tr>
          <tr>
             <td>R</td>
@@ -5469,6 +5628,24 @@
          </tr>
          <tr>
             <td>R</td>
+            <td>16A40 .. 16A6F</td>
+            <td>&nbsp;</td>
+            <td><i>Mro</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>16AD0 .. 16AFF</td>
+            <td>&nbsp;</td>
+            <td><i>Bassa Vah</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>16B00 .. 16B8F</td>
+            <td>&nbsp;</td>
+            <td><i>Pahawh Hmong</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
             <td>16F00 .. 16F9F</td>
             <td>&nbsp;</td>
             <td><i>Miao</i></td>
@@ -5478,6 +5655,18 @@
             <td>1B000 .. 1B0FF</td>
             <td>&nbsp;</td>
             <td><i>Kana Supplement</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>1BC00 .. 1BC9F</td>
+            <td>&nbsp;</td>
+            <td><i>Duployan</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>1BCA0 .. 1BCAF</td>
+            <td>&nbsp;</td>
+            <td><i>Shorthand Format Controls</i></td>
          </tr>
          <tr>
             <td>U</td>
@@ -5520,6 +5709,12 @@
             <td>1EE00 .. 1EEFF</td>
             <td>&nbsp;</td>
             <td><i>Arabic Mathematical Alphabetic Symbols</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>1E800 .. 1E8DF</td>
+            <td>&nbsp;</td>
+            <td><i>Mende Kikakui</i></td>
          </tr>
          <tr>
             <td>U</td>
@@ -5577,6 +5772,12 @@
          </tr>
          <tr>
             <td>U</td>
+            <td>1F650 .. 1F67F</td>
+            <td>&nbsp;</td>
+            <td><i>Ornamental Dingbats</i></td>
+         </tr>
+         <tr>
+            <td>U</td>
             <td>1F680 .. 1F6FF</td>
             <td>&nbsp;</td>
             <td><i>Transport And Map Symbols</i></td>
@@ -5586,6 +5787,18 @@
             <td>1F700 .. 1F77F</td>
             <td>&nbsp;</td>
             <td><i>Alchemical Symbols</i></td>
+         </tr>
+         <tr>
+            <td>U</td>
+            <td>1F780 .. 1F7FF</td>
+            <td>&nbsp;</td>
+            <td><i>Geometric Shapes Extended</i></td>
+         </tr>
+         <tr>
+            <td>R</td>
+            <td>1F800 .. 1F8FF</td>
+            <td>&nbsp;</td>
+            <td><i>Supplemental Arrows-C</i></td>
          </tr>
          <tr>
             <td>U</td>
@@ -5649,16 +5862,17 @@
          </tr>
          <tr>
             <td>U</td>
-            <td>F0000 .. FFFFF</td>
+            <td>F0000 .. FFFFD</td>
             <td>&nbsp;</td>
             <td><i>Supplementary Private Use Area-A</i></td>
          </tr>
          <tr>
             <td>U</td>
-            <td>100000 .. 10FFFF</td>
+            <td>100000 .. 10FFFD</td>
             <td>&nbsp;</td>
             <td><i>Supplementary Private Use Area-B</i></td>
          </tr>
+         </tbody>
       </table>
       <p></p>
       <hr width="50%"></hr>
