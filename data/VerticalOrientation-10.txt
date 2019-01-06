@@ -1,5 +1,5 @@
-# VerticalOrientation-09.txt
-# Date: 2013-05-03, 01:18:00 GMT [EM, KI, LI]
+# VerticalOrientation-10.txt
+# Date: 2013-05-09, 08:05:00 GMT [EM, KI, LI]
 #
 # Vertical_Orientation (vo) Property
 #
@@ -9,7 +9,7 @@
 # Copyright (c) 1991-2013 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see Draft UTR #50: Unicode Vertical Text Layout,
-# Revision 9, at http://www.unicode.org/reports/tr50/tr50-9.html
+# Revision 10, at http://www.unicode.org/reports/tr50/tr50-10.html
 #
 # The format of the file is two fields separated by a semicolon.
 # Field 0: Unicode code point value or range of code point values in
@@ -299,12 +299,12 @@
 2123 ; U
 2124 ; R
 2125 ; U
-2126 ; U
+2126 ; R
 2127 ; U
 2128 ; R
 2129 ; U
-212A ; U
-212B ; U
+212A ; R
+212B ; R
 212C ; R
 212D ; R
 212E ; U
@@ -355,8 +355,8 @@
 2321 ; R
 2322..2323 ; R
 2324..2328 ; U
-2329 ; R
-232A ; R
+2329 ; Tr
+232A ; Tr
 232B ; U
 232C..237C ; R
 237D..239A ; U
