@@ -1,9 +1,8 @@
-# VerticalOrientation-14.txt
-# Date: 2015-09-28, 20:00:00 GMT [EM, KI, LI]
+# VerticalOrientation-15.txt
+# Date: 2015-11-16, 20:00:00 GMT [EM, KI, LI]
 #
-# Note: This data file accompanies Revision 14 of Unicode® Technical
-# Report #50, which has the status of Proposed Update. The approved
-# version of this data file will appear in the subsequent Revision 15.
+# Note: This data file accompanies Revision 15 of Unicode® Technical
+# Report #50, which has approved status.
 #
 # Vertical_Orientation (vo) Property
 #
@@ -12,9 +11,9 @@
 #
 # Copyright © 2011–2015 Unicode, Inc.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
-# For documentation, see Revision 14 of
+# For documentation, see Revision 15 of
 # Unicode® Technical Report #50: Unicode Vertical Text Layout,
-# at http://www.unicode.org/reports/tr50/tr50-14.html
+# at http://www.unicode.org/reports/tr50/tr50-15.html
 #
 # The character repertoire of this revision is the repertoire of
 # Unicode Version 8.0.
